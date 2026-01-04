@@ -14,4 +14,8 @@
 -Để khai báo type trong typescript thì chúng ta sử dụng từ khóa là `interface` và `type`
 -tên type thì viết theo PascalCase nghĩa là tất cả chữ cái đều in hoa
 -Sử dụng `in` để kiểm tra 1 thuộc tính nào đó tồn tại trong object nào đó hay ko? phù hợp khi kiểm tra với union type
+
+-Khi chúng ta sử dụng dấu : để khai báo type thì cái type nó sẽ mạnh hơn cái value
+-`as const` sẽ biến giá trị thành readonly,tức là chỉ đọc chứ không thể thêm xóa cập nhật
+//const scores = [1, 2, 3, 4, 5] as const
 ``` typescript
