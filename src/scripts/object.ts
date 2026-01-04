@@ -16,3 +16,6 @@ const student1:{
 }={
   name:"evondev"
 }
+const student2:Record<string,any>={
+  name:"evondev"
+}

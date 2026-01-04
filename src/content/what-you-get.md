@@ -8,6 +8,10 @@
 -Sử dụng `typeof variableName` để kiểm tra type của một biến
 -Chỉ sử dụng typeof trực tiếp vào biến hoặc params.chứ ko sử dụng vào Type được
 -Type never ko gán được giá trị nào
-
 -Dấu ? nghĩa là ko bắt buộc có cũng được ko có cũng được
+-Union type dùng được nhiều type
+-Intersection type & {} laf 1 type đặc biejt trong Typescript ,nó có tất cả giá trị ngoại trừ `null` và `undefined` và không nên dùng khi báo cho tất cả giá trị
+-Để khai báo type trong typescript thì chúng ta sử dụng từ khóa là `interface` và `type`
+-tên type thì viết theo PascalCase nghĩa là tất cả chữ cái đều in hoa
+-Sử dụng `in` để kiểm tra 1 thuộc tính nào đó tồn tại trong object nào đó hay ko? phù hợp khi kiểm tra với union type
 ``` typescript
