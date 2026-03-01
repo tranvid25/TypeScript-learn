@@ -9,9 +9,9 @@ interface Admin {
   role: string;
 }
 
-export type Person = unknown;
+export type Person = User | Admin;
 
-export const persons: User[] = [
+export const persons: Person[] = [
   {
     name: "Max Mustermann",
     age: 25,

@@ -5,5 +5,5 @@ export const programingLanguages = {
   PYTHON: "python",
   VUE: "vue",
   RUBY: "ruby",
-};
+} as const;
 export type JavascriptLanguage = (typeof programingLanguages)["JAVASCRIPT"];

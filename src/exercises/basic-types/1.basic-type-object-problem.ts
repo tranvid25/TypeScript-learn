@@ -13,6 +13,6 @@ export const users: unknown[] = [
   },
 ];
 
-export function logPerson(user: unknown) {
-  console.log(` - ${user.name}, ${user.age}`);
+export function logPerson(users: unknown) {
+  console.log(` - ${users.name}, ${users.age}`);
 }

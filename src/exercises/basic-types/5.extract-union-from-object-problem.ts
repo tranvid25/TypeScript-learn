@@ -9,6 +9,6 @@ const complexObj = {
     label: "Reactjs",
   },
 };
-type ComplexObj = unknown;
+type ComplexObj = keyof typeof complexObj;
 // Expected: type ComplexObj = "javascript" | "typescript" | "reactjs"
 export {};

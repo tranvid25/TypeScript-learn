@@ -1,10 +1,10 @@
-export type User = {
-  name: string;
-  age: number;
-  occupation: string;
-};
+export type User={
+  name:string;
+  age:number;
+  occupation:string;
+}
 
-export const users: User[] = [
+export const users:User[]=[
   {
     name: "Max Mustermann",
     age: 25,
@@ -16,7 +16,6 @@ export const users: User[] = [
     occupation: "Astronaut",
   },
 ];
-
-export function logPerson(user: User) {
-  console.log(` - ${user.name}, ${user.age} ${user.occupation}`);
+export function logPerson(users:User){
+  console.log(`${users.name} . ${users.age}`);
 }
